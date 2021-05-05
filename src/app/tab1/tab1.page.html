@@ -1,17 +1,80 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="danger">
     <ion-title>
-      Tab 1
+      Salgados
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="light">
+  <ion-item>
+    <ion-thumbnail slot="start">
+        <img src="https://www.ibahia.com/fileadmin/user_upload/ibahia/2020/junho/02/coxinha.jpg?width=1200&enable=upscale">
+    </ion-thumbnail>
+    <ion-label>
+      <h3 id="titulo">Coxinha de Frango</h3>
+      <p id="subtitulo">Recheio de frango e</p>   
+      <p id="subtitulo">batata</p> 
+    </ion-label>
+    <ion-badge slot="end" id="badge">4,50</ion-badge>
+  </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+        <img src="https://www.receitas-sem-fronteiras.com/media/pastel-maria_crop.jpg/rh/pastel-de-carne.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h3 id="titulo">Pastel de Carne</h3>
+      <p id="subtitulo">Recheio de carne</p>   
+      <p id="subtitulo">moída</p> 
+    </ion-label>
+    <ion-badge slot="end" id="badge">6,50</ion-badge>
+  </ion-item>
+
+
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://cdn.panelinha.com.br/receita/962766000000-Bolinha-de-queijo.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h3 id="titulo">Cubinho de Cheddar</h3>
+      <p id="subtitulo">Recheio de frango</p>   
+      <p id="subtitulo">desfiado e cheddar</p> 
+    </ion-label>
+    <ion-badge slot="end" id="badge">5,00</ion-badge>
+  </ion-item>
+
+
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://www.oyshi.com.br/wp-content/uploads/2015/12/Enroladinho-de-Salsicha-23-g-e1450104071333-552x552-c-default.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h3 id="titulo">Enroladinho de Salsicha</h3>
+      <p id="subtitulo">Recheio de presuno</p>   
+      <p id="subtitulo">e mussarela</p> 
+    </ion-label>
+    <ion-badge slot="end" id="badge">4,00</ion-badge>
+  </ion-item>
+
+
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+            <img src="https://fontecerta.com/wp-content/uploads/2018/03/Quibe-frito-1024x683-696x464.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h3 id="titulo">Quibe de Carne</h3>
+      <p id="subtitulo">Tradicional</p>   
+    </ion-label>
+    <ion-badge slot="end" id="badge">5,50</ion-badge>
+  </ion-item>
+  
+  
+  
+
 </ion-content>
